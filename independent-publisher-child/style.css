@@ -1,0 +1,82 @@
+/*
+ Theme Name:   Independent Publisher Child 
+ Theme URI:    
+ Description:  My child theme for the Independent Publisher theme
+ Author:       Ricky White
+ Author URI:   http:/rickywhite.net
+ Template:     independent-publisher
+ Version:      1.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         
+ Text Domain:  independent-publisher-child
+*/
+
+/* 
+Branding Colors
+
+Red - #a9060f
+Grey - #565656
+*/
+
+/* Site Wide */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    font-family: 'Roboto', sans-serif; 
+}
+
+/* Typograpy */
+
+
+/* Links */
+
+ul li a {
+    color: #a9060f;
+}
+ul li a:hover {
+    color: #a9060f;
+}
+a:visited {
+    color: #a9060f;
+}
+.site-title a {
+    color: black;
+}
+.entry-header a {
+    color: #333332;
+}
+.entry-title a:hover {
+    color: #565656;
+}
+.comments-link a:hover {
+    color: #a9060f;
+}
+
+.edit-link a:hover {
+    color: #a9060f;
+}
+.comments-area a {
+    color: #a9060f;
+}
+
+/* Footer */
+
+.my-footer-info {
+    font-size: 1.2em;
+    color: #565656;
+}
+.my-footer-info a {
+    font-size: 1em;
+    color: #333332;
+}
+.my-footer-info a:hover {
+    color: #a9060f;
+}
